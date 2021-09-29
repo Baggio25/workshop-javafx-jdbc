@@ -21,7 +21,7 @@ public class Main extends Application {
 	}
 
 	private void carregaMain(Stage primaryStage) throws IOException {
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/MainView.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/main/MainView.fxml"));
 		ScrollPane scrollPane = loader.load();
 		
 		scrollPane.setFitToHeight(true);
